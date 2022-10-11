@@ -1,0 +1,58 @@
+.ProfileInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+
+    p {
+      font-weight: 400;
+      font-size: 15px;
+      color: rgb(61, 61, 61);
+    }
+  }
+
+  &__name{
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px 15px 0;
+    text-align: center;
+  }
+
+  &__desc {
+    width: 100vw;
+    font-size: 15px;
+    padding: 10px 15px;
+  }
+
+  &__btns {
+    padding: 10px 15px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    
+    button {
+      font-weight: 500;
+      flex: 1;
+      background-color: rgb(228, 228, 228);
+      border: none;
+      padding: 5px;
+      justify-self: stretch;
+      border-radius: 5px;
+    }
+  }
+}

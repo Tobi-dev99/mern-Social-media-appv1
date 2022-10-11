@@ -1,0 +1,21 @@
+.search{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10px;
+    input {
+        border: none;
+        background-color: #ccc;
+        outline: none;
+        width: 90%;
+        padding: 10px;
+        border-radius: 10px;
+        align-self: center;
+    }
+    
+    hr{
+        align-self: center;
+        border: #ccc solid 1px;
+        width: 95%;
+    }
+}

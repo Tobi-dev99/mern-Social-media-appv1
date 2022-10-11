@@ -1,0 +1,48 @@
+.formWrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(235, 235, 235);
+
+  &__heading {
+    margin-bottom: 10px;
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+  a {
+    text-decoration: none;
+    color: blue;
+    font-size: 13px;
+    &:visited {
+      color: blue;
+    }
+  }
+}
+
+.AuthForm {
+  display: flex;
+  flex-direction: column;
+
+  input {
+    padding: 5px 10px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+button {
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: royalblue;
+    border: none;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}
